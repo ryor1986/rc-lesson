@@ -57,6 +57,8 @@ for (var i = 0; i < songElements.length; i++) {
 	Initializes AmplitudeJS
 */
 Amplitude.init({
+    "volume": 0,
+    "start_song": 1,
     "songs": [{
             "name": "Risin' High (feat Raashan Ahmad)",
             "artist": "Ancient Astronauts",
