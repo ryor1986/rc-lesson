@@ -1,0 +1,40 @@
+body {
+    background-image: url('../img/risuta.png');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+}
+
+main {
+    max-width: 700px !important;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/***************/
+
+select#magazine {
+    display: none;
+}
+
+
+/* select#date option.date {
+    display: none;
+} */
+
+#companionInfo {
+    display: none;
+}
+
+.applicationPeriod {
+    display: none;
+}
+
+#submitBtn,
+#backBtn,
+.showOnConfirm {
+    display: none;
+}
